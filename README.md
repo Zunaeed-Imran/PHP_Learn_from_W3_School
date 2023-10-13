@@ -12,4 +12,11 @@
 - PHP can be used to control user-access
 - PHP can encrypt data
 
+### Some Note
+- Note: PHP statements end with a semicolon (;).
+- Note: However; all variable names are case-sensitive!
+- In PHP, a variable starts with the $ sign
+- Note: When you assign a text value to a variable, put quotes around the value.
+- A variable name cannot start with a number
+
 
