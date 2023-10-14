@@ -1,8 +1,10 @@
 <?php
 
-$x = "Hello office worker's";
+// $x = "Hello office worker's";
+// var_dump($x);
 
-var_dump($x);
+$arr = array("Itlogiko", "Rextent", "JessoreIt");
 
+var_dump($arr);
 
 ?>

@@ -41,4 +41,5 @@
 6. var_dump statement
 - The PHP var_dump() function returns the data type and value:
 - it also see the string digit's
+- it also print all array value.
 
