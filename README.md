@@ -37,3 +37,8 @@
 
 5. print statement
 - The print statement can be used with or without parentheses: print or print().
+
+6. var_dump statement
+- The PHP var_dump() function returns the data type and value:
+- it also see the string digit's
+
