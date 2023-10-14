@@ -19,4 +19,4 @@
 - Note: When you assign a text value to a variable, put quotes around the value.
 - A variable name cannot start with a number
 
-
+1. Variable
