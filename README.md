@@ -20,3 +20,5 @@
 - A variable name cannot start with a number
 
 1. Variable
+- just take a variable and print out.
+- In the example above, notice that we did not have to tell PHP which data type the variable is.
