@@ -31,3 +31,6 @@
 - PHP also stores all global variables in an array called $GLOBALS[index]
 - we see if we use the global array function out put will be "15"
 - or only if we print $y out-put will be 10
+
+4. echo statement
+- The echo statement can be used with or without parentheses: echo or echo().
