@@ -22,3 +22,7 @@
 1. Variable
 - just take a variable and print out.
 - In the example above, notice that we did not have to tell PHP which data type the variable is.
+
+2. PHP Global Variable
+- we see if we use the global function out put will be "15"
+- or only if we print $y out-put will be '10' in that example.
