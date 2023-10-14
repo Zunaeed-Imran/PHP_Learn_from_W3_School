@@ -26,3 +26,8 @@
 2. PHP Global Variable
 - we see if we use the global function out put will be "15"
 - or only if we print $y out-put will be '10' in that example.
+
+3. Gloval variable in array
+- PHP also stores all global variables in an array called $GLOBALS[index]
+- we see if we use the global array function out put will be "15"
+- or only if we print $y out-put will be 10
