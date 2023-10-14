@@ -34,3 +34,6 @@
 
 4. echo statement
 - The echo statement can be used with or without parentheses: echo or echo().
+
+5. print statement
+- The print statement can be used with or without parentheses: print or print().
