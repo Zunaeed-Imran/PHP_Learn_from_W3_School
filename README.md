@@ -67,4 +67,4 @@
 } ```
 
 10. Array Operator
-- 
+- this example will add all array together
