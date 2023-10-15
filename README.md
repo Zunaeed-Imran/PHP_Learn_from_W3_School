@@ -58,3 +58,7 @@
 9. constant in php
 - we use define for const
 
+#### Operator in php
+- and  operator ``` if ($x == 100 and $y == 50) {
+    echo "Hello world!";
+} ```
