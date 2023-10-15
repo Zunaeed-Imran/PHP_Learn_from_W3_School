@@ -55,5 +55,6 @@
 - So, if you assign an integer value to a variable, the type of that variable will automatically be an integer.
 - This automatic conversion can sometimes break your code.
 
-
+9. constant in php
+- we use define for const
 
