@@ -50,5 +50,10 @@
 - উপরের উদাহরণ দেখে আমরা বুঝতে পারি একবার অবজেক্ট ডিফাইন করে একই জিনিস বারবার লেখা লাগবে না ফাংশনের মত কাজ করে কিন্তু inharit অর্থাৎ ভিতরের মানও চেঞ্জ করে
 - if we use private in function it will not work
 
+8. PHP Number's
+- One thing to notice about PHP is that it provides automatic data type conversion.
+- So, if you assign an integer value to a variable, the type of that variable will automatically be an integer.
+- This automatic conversion can sometimes break your code.
+
 
 
