@@ -62,3 +62,6 @@
 - and  operator ``` if ($x == 100 and $y == 50) {
     echo "Hello world!";
 } ```
+- or operator in php ``` if ($x == 100 or $y == 80) {
+    echo "Hello world!";
+} ```
