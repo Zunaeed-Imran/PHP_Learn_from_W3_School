@@ -65,3 +65,6 @@
 - or operator in php ``` if ($x == 100 or $y == 80) {
     echo "Hello world!";
 } ```
+
+10. Array Operator
+- 
