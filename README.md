@@ -43,7 +43,7 @@
 - it also see the string digit's
 - it also print all array value.
 
-7. PHP Object
+7. PHP Object Class
 -  inherit ধরা যাক আমরা অনেকগুলো গাড়ির নাম নিলাম এবং প্রত্যেকটা গাড়ির কালার এবং চাকা সাইজ ব্রেক এর মডেল আলাদা
 - আমরা inherit করে Object Class এর মাধ্যমে সেগুলো Define করতে পারি|
 - আমরা এখানে পাবলিক ব্যবহার করেছি কারণ ফাংশানের বাইরেও যাতে আমরা কল করতে পারি বা defin করতে পারি|
