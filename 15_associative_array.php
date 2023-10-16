@@ -1,4 +1,5 @@
 <?php
+
 // this example program we use simple associative array.
 
 $x = array("imran" => 26, "akash" => 25, "dip" => 24);

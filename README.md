@@ -102,3 +102,4 @@
 
 15.2. Associative array
 - we use foreach-loop in that associative array
+
