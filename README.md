@@ -98,3 +98,7 @@
 
 15. Associative Array
 - simple associative array
+- we print one out-put only in that example.
+
+15.2. Associative array
+- we use foreach-loop in that associative array
