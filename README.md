@@ -90,3 +90,8 @@
 13.5. Function add value by "&"
 - Passing Arguments by Reference
 - in that example we add another argunment using "&"
+
+14. Indexed Array
+- simple example of Indexed array.
+- first we use count function to count length.
+- than to loop through all array we need to use loop we use for loop.
