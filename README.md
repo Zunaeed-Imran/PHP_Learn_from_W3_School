@@ -103,3 +103,6 @@
 15.2. Associative array
 - we use foreach-loop in that associative array
 
+15.3 sorting array
+- simple sorting array
+- we use sort funtion to sort array
