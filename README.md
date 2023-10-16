@@ -74,3 +74,9 @@
 
 12. Foreach Associative array. 
 - associative array simple example in this foreach loop.
+
+13. Function in PHP
+- simple function example in php
+
+13.2. Function in PHP
+- we use multiple parameter in that example
