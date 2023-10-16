@@ -80,3 +80,9 @@
 
 13.2. Function in PHP
 - we use multiple parameter in that example
+
+13.3. Function Default argunment.
+- we set a default argunment in that example
+
+13.4. Return Function
+- in that example we use return function in addition
