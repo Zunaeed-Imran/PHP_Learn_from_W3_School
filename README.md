@@ -95,3 +95,6 @@
 - simple example of Indexed array.
 - first we use count function to count length.
 - than to loop through all array we need to use loop we use for loop.
+
+15. Associative Array
+- simple associative array
