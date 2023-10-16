@@ -58,7 +58,7 @@
 9. constant in php
 - we use define for const
 
-#### Operator in php
+*#=>* Operator in php
 - and  operator ``` if ($x == 100 and $y == 50) {
     echo "Hello world!";
 } ```
@@ -68,3 +68,6 @@
 
 10. Array Operator
 - this example will add all array together
+
+11. Foreach array.
+- loop through all array element
