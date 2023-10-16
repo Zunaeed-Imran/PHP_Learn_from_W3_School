@@ -5,7 +5,7 @@
 $x = array('red', 'blue', 'green');
 
 foreach($x as $val){
-  echo $val." ";
+  echo $val . " ";
 }
 
 ?>

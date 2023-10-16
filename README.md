@@ -71,3 +71,6 @@
 
 11. Foreach array.
 - loop through all array element
+
+12. Foreach Associative array. 
+- associative array simple example in this foreach loop.
