@@ -106,3 +106,6 @@
 15.3 sorting array
 - simple sorting array
 - we use sort funtion to sort array
+
+15.4. Multidimentional array
+- Example of simple two dimentional array
