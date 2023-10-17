@@ -109,3 +109,6 @@
 
 15.4. Multidimentional array
 - Example of simple two dimentional array
+
+16. PHP Superglobal - $GLOBALS
+- Basic Example of PHP superGlobal Variable
