@@ -112,3 +112,7 @@
 
 16. PHP Superglobal - $GLOBALS
 - Basic Example of PHP superGlobal Variable
+- $GLOBALS is a PHP super global variable which is used to access global variables from anywhere in the PHP script (also from within functions or methods).
+
+17. PHP Superglobal - $_SERVER
+- Super global variables are built-in variables that are always available in all scopes.
