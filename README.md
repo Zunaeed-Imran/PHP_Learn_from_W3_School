@@ -124,3 +124,6 @@
 
 19. PHP Superglobal - $_GET
 - Example of GET method
+
+19.2. PHP Superglobal - $_GET
+- More simple example of GET Method. 
