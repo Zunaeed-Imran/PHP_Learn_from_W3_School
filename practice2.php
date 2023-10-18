@@ -1,8 +1,8 @@
 <?php
 // PHP $_GLOBAL Example
 
-$a = 59;
-$b = 25;
+$a = 5;
+$b = 130;
 
 function hhh(){
   $GLOBALS['v'] = $GLOBALS['a'] * $GLOBALS['b'];

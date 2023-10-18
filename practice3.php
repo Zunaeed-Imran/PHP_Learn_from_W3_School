@@ -7,7 +7,7 @@
 </head>
 <body>
   <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-    Name: <input type="text" name="name">
+    NAME: <input type="text" name="name">
     <input type="submit">
   </form>
 </body>
@@ -15,15 +15,15 @@
 
 <?php
 
+
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
   $name = ($_REQUEST['name']);
 
   if(empty($name)){
-    echo "EMPTY!";
+    echo "EmptyName";
   }else{
     echo $name;
   }
 }
-
 
 ?>
