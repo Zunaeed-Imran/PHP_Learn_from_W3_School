@@ -121,3 +121,6 @@
 - Super global variables are built-in variables that are always available in all scopes.
 - Simple example of from  with suber global variable
 - htmlspecialchars এটি ইউজ করলে কোন স্পেশাল ক্যারেক্টারের কার্যক্ষমতা হারায় শুধুমাত্র যা লিখবো সেটাই দেখাবে যেমন যদি কোন কারেক্টর Bold করি কিন্তু সেটি হবে না
+
+19. PHP Superglobal - $_GET
+- Example of GET method
