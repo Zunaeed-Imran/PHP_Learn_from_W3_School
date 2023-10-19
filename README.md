@@ -125,7 +125,18 @@
 19. PHP Superglobal - $_GET
 - Example of GET method
 - $_GET is an array of variables passed to the current script via the URL parameters.
-- $_POST is an array of variables passed to the current script via the HTTP POST method.
+- Information sent from a form with the GET method is visible to everyone
 
 19.2. PHP Superglobal - $_GET
 - More simple example of GET Method. 
+- GET also has limits on the amount of information to send. The limitation is about 2000 characters. 
+- GET should NEVER be used for sending passwords or other sensitive information!
+- GET may be used for sending non-sensitive data.
+
+20. PHP Superglobal - $_POST,
+- $_POST is an array of variables passed to the current script via the HTTP POST method.
+- and has no limits on the amount of information to send.
+- POST supports advanced functionality such as support for multi-part binary input while uploading files to server.
+- However, because the variables are not displayed in the URL, it is not possible to bookmark the page.
+
+
