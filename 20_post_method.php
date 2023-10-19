@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+  <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">   // if i use' htmlspecialchars' i need to use both place php and html
     Name: <input type="text" name="name">
     Email: <input type="email" name="email">
     <input type="submit">

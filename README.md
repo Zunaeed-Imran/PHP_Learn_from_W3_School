@@ -139,4 +139,8 @@
 - POST supports advanced functionality such as support for multi-part binary input while uploading files to server.
 - However, because the variables are not displayed in the URL, it is not possible to bookmark the page.
 
+21. PHP Form Validation
+- basic example of php form validation in PHP
+
+
 
