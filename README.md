@@ -124,6 +124,8 @@
 
 19. PHP Superglobal - $_GET
 - Example of GET method
+- $_GET is an array of variables passed to the current script via the URL parameters.
+- $_POST is an array of variables passed to the current script via the HTTP POST method.
 
 19.2. PHP Superglobal - $_GET
 - More simple example of GET Method. 
