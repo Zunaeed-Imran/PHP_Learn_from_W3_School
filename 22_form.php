@@ -6,7 +6,27 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+
+    Name: <input type="text" name="name" value="<?php echo $name; ?>">
+    <span class="erroe"><?php echo $nameError; ?></span>
+    <br>
+    Email: <input type="text" name="email" value="<?php echo $email ?>">
+    <span class="error"><?php echo $emailError; ?></span>
+    <br>
+    Website: <input type="text" name="website" value="<?php echo $website ?>">
+    <span class="error"><?php echo $websiteError ?></span>
+    <br>
+    Comment: <textarea name="comment" cols="30" rows="5"><?php echo $comment ?></textarea>
+    <br>
+    Gender: 
+    <input type="ratio" name="gender" <?php if(isset($gender) && $gender == "male") echo "checked"; ?> value="male">Male
+    <input type="ratio" name="gender" <?php if(isset($gender) && $gender == "female") echo "checked"; ?> value="female">Female
+    <input type="radio" name="gender" <?php if(isset($gender) && $gender == "other") echo "checked"; ?> value="other">Other
+    <span class="error"><?php echo $genderError ?></span>
+    <br>
+    
+  </form>
 </body>
 </html>
 
