@@ -6,6 +6,24 @@
   <title>Document</title>
 </head>
 <body>
+
+  <?php
+
+    $name = $email = $website = $comment = $gender = "";
+    $nameError = $emailError = $genderError = $websiteError = "";
+
+    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+      if(empty($_POST['name'])){
+        $nameError = 'Name required';
+      }else{
+        $name = test($_POST['name']);
+        if(!preg_match())
+      }
+    }
+
+  ?>
+
+
   <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 
     Name: <input type="text" name="name" value="<?php echo $name; ?>">
@@ -25,13 +43,21 @@
     <input type="radio" name="gender" <?php if(isset($gender) && $gender == "other") echo "checked"; ?> value="other">Other
     <span class="error"><?php echo $genderError ?></span>
     <br>
-    
+    <input type="submit">
+
+
+    <?php
+
+      echo $name . "<br>";
+      echo $email . "<br>";
+      echo $website . "<br>";
+      echo $comment . "<br>";
+      echo $gender . "<br>";
+
+    ?>
+
+
   </form>
 </body>
 </html>
 
-<?php
-
-
-
-?>
