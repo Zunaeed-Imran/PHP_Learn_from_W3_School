@@ -61,20 +61,25 @@
     Name: <input type="text" name="name" value="<?php echo $name; ?>">
     <span class="erroe"><?php echo $nameError; ?></span>
     <br>
+
     Email: <input type="text" name="email" value="<?php echo $email ?>">
     <span class="error"><?php echo $emailError; ?></span>
     <br>
+
     Website: <input type="text" name="website" value="<?php echo $website ?>">
     <span class="error"><?php echo $websiteError ?></span>
     <br>
+
     Comment: <textarea name="comment" cols="30" rows="5"><?php echo $comment ?></textarea>
     <br>
+
     Gender:   <!-- remember to use type radio not ratio -->
     <input type="radio" name="gender" <?php if(isset($gender) && $gender == "female") echo "checked"; ?> value="female">Female
     <input type="radio" name="gender" <?php if(isset($gender) && $gender == "male") echo "checked"; ?> value="male">Male
     <input type="radio" name="gender" <?php if(isset($gender) && $gender == "other") echo "checked"; ?> value="other">Other
     <span class="error">*<?php echo $genderError ?></span>  
     <br>
+    
     <input type="submit">
     <?php
       echo $name . "<br>";
