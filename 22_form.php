@@ -69,40 +69,20 @@
     <br>
     Comment: <textarea name="comment" cols="30" rows="5"><?php echo $comment ?></textarea>
     <br>
-
-
-
-Gender:
-<input type="radio" name="gender" <?php if(isset($gender) && $gender == "female") echo "checked"; ?> value="female">Female
-<input type="radio" name="gender" <?php if(isset($gender) && $gender == "male") echo "checked"; ?> value="male">Male
-<input type="radio" name="gender" <?php if(isset($gender) && $gender == "other") echo "checked"; ?> value="other">Other
-<span class="error">*<?php echo $genderError; ?></span>
-
-
-
-
-    Gender: 
-    <input type="ratio" name="gender" <?php if(isset($gender) && $gender == "female") echo "checked"; ?> value="female">Female
-    <input type="ratio" name="gender" <?php if(isset($gender) && $gender == "male") echo "checked"; ?> value="male">Male
+    Gender:   <!-- remember to use type radio not ratio -->
+    <input type="radio" name="gender" <?php if(isset($gender) && $gender == "female") echo "checked"; ?> value="female">Female
+    <input type="radio" name="gender" <?php if(isset($gender) && $gender == "male") echo "checked"; ?> value="male">Male
     <input type="radio" name="gender" <?php if(isset($gender) && $gender == "other") echo "checked"; ?> value="other">Other
-    <span class="error">*<?php echo $genderError ?></span>
-
-    
+    <span class="error">*<?php echo $genderError ?></span>  
     <br>
     <input type="submit">
-
-
     <?php
-
       echo $name . "<br>";
       echo $email . "<br>";
       echo $website . "<br>";
       echo $comment . "<br>";
       echo $gender . "<br>";
-
     ?>
-
-
   </form>
 </body>
 </html>
