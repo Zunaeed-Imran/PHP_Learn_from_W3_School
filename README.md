@@ -159,6 +159,11 @@
 - i exercise an example of a variable input from other php file
 - using include method
 
+25. PHP File Handling
+- just a example what readfile function do. 
+- The readfile() function in PHP is a built-in function that reads the contents of a file and writes the content to the output
+
+
 
 
 
