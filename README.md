@@ -163,7 +163,18 @@
 - just a example what readfile function do. 
 - The readfile() function in PHP is a built-in function that reads the contents of a file and writes the content to the output
 
-
+26. PHP File Upload
+- Make sure that the form uses method="post"
+- Make sure that the file type is 'file'
+- move_uploaded_file — Moves an uploaded file to a new location
+- Be sure your file upload form has attribute enctype="multipart/form-data" otherwise the file upload will not work.
+- Example of file upload 
+``` echo '<pre>';
+if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
+    echo "File is valid, and was successfully uploaded.\n";
+} else {
+    echo "Possible file upload attack!\n";
+} ```
 
 
 
