@@ -147,6 +147,18 @@
 
 ### PHP Advanced
 23. PHP Date and Time
-- 
+- some function in php date and time in the example 23
+
+24. PHP Include Files
+- একটা পিএসপি ফাইল থেকে অন্য পিএসপি file যাওয়ার জন্য আমরা include বা require ব্যবহার করি
+- include will only produce a warning (E_WARNING) and the script will continue
+- require will produce a fatal error (E_COMPILE_ERROR) and stop the script
+- even we can use variable from other file using include. 
+
+24.2 include file example
+- i exercise an example of a variable input from other php file
+- using include method
+
+
 
 
