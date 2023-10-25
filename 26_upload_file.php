@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+  <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" enctype="multipart/form-data">
     <input type="file" name="image" id="">
     <input type="submit">
   </form>
