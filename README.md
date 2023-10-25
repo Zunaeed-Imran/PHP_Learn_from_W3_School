@@ -164,7 +164,7 @@
 - The readfile() function in PHP is a built-in function that reads the contents of a file and writes the content to the output
 
 26. PHP File Upload
-- [Basic tutorial]("https://youtu.be/J71Hq7yAwwI?si=fYfYmEHTjhjesW4B")
+- [Basic tutorial](https://youtu.be/J71Hq7yAwwI?si=fYfYmEHTjhjesW4B)
 - Make sure that the form uses method="post"
 - Make sure that the file type is 'file'
 - move_uploaded_file — Moves an uploaded file to a new location
