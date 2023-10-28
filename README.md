@@ -181,3 +181,6 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
 27. PHP and JSON
 - This example shows how to encode an associative array into a JSON object:
 
+28. PHP OOP - Classes and Objects
+- In the example below, $apple and $banana are instances of the class Fruit:
+- class with two fruits
