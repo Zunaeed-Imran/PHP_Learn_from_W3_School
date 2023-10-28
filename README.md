@@ -184,3 +184,7 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
 28. PHP OOP - Classes and Objects
 - In the example below, $apple and $banana are instances of the class Fruit:
 - class with two fruits
+
+28.2 PHP OOP - Classes and Objects
+- Object class fruit's name and color we see in this example
+- In the example below, we add two more methods to class Fruit, for setting and getting the $color property:
