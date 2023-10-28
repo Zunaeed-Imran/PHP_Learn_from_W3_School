@@ -175,7 +175,8 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
     echo "File is valid, and was successfully uploaded.\n";
 } else {
     echo "Possible file upload attack!\n";
-} ```
+} 
+```
 
 27. PHP and JSON
 - This example shows how to encode an associative array into a JSON object:
