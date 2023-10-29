@@ -199,3 +199,8 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
 29. PHP OOP - Constructor
 - Another Example of constructor function
 - Example of __constructor function
+
+30. PHP OOP - Destructor
+- A destructor is called when the object is destructed or the script is stopped or exited.
+- [Simple Tutorial](https://youtu.be/kjE8FmFdhkE?si=Vb-SFEj3n02n2C-l)
+- Simple Example of __destructor. 
