@@ -1,10 +1,11 @@
 <?php
 
-class koli{
+class test3{
   public $x;
 }
 
-$a = new koli();
-$a->x = "Virat";
+$y = new test3();
+$y->x = "Testing";
 
-echo $a->x;
+echo $y->x;
+?>
