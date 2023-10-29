@@ -195,3 +195,7 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
 
 28.4 PHP OOP - Classes and Objects
 - anothe example using `$this->`
+
+29. PHP OOP - Constructor
+- Another Example of constructor function
+- Example of __constructor function
