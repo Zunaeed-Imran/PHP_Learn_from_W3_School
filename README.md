@@ -188,3 +188,7 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
 28.2 PHP OOP - Classes and Objects
 - Object class fruit's name and color we see in this example
 - In the example below, we add two more methods to class Fruit, for setting and getting the $color property:
+
+28.3 PHP OPP
+- another example of OPP
+- we are not using constructor function
