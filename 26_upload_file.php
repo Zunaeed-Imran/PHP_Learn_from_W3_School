@@ -2,14 +2,13 @@
 
 if(isset($_POST['submit'])){
   if(!empty($_FILES['upload']['name'])){
-    echo "Hello file is uploaded";
+    var_dump($_FILES);
   }else{
-      $massege = '<p style="color: red;">Please Choose a file</p>';
+      $message = '<p style="color: red;">Please Choose a file</p>';
   }
 }
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +18,7 @@ if(isset($_POST['submit'])){
   <title>Document</title>
 </head>
 <body>
-  <?php echo $massege ?? null; ?>
+  <?php echo $message ?? null; ?>
   <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
     Select Image to Upload:
     <input type="file" name="upload">
