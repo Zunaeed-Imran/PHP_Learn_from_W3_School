@@ -7,10 +7,14 @@
       $file_name = $_FILES['upload']['name'];
       $file_size = $_FILES['upload']['size'];
       $file_tmp = $_FILES['upload']['tmp_name'];
-      $terget_dir = 'uploads/${file_name}';
+      $terget_dir = "uploads/${file_name}";
+
+
 
       $file_ext = explode('.', $file_name);
       $file_ext = strtolower(end($file_ext));
+
+
 
       if(in_array($file_ext, $allowed_ext)){
 
@@ -18,15 +22,17 @@
           
           move_uploaded_file($file_tmp, $terget_dir);
 
+
+
           echo '<p style = "color: green;">File is uploaded</p>';
         }else{
-          echo $message = '<p style = "color: red;">File is too Large</p>';
+          echo '<p style = "color: red;">File is too Large</p>';
         }
       }else{
-        echo $message =  '<p style = "color: red;">Invalid File Type</p>';
+         $message =  '<p style = "color: red;">Invalid File Type</p>';
       }
-
-
+    }else{
+      $message = '<p style= "color: red;">Please a file</p>';
     }
   }
 
@@ -42,10 +48,11 @@
 </head>
 <body>
   <?php echo $message ?? null; ?>
-
- <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+ <form action="<?php echo htmlspecialchars(
+        $_SERVER['PHP_SELF']
+        ); ?>" method="post" enctype="multipart/form-data">
   Select Image to Upload: <br>
-  <input type="file" name="image"><br>
+  <input type="file" name="upload"><br>
   <input type="submit" name="submit" value="submit">
 
  </form> 
