@@ -18,7 +18,7 @@
 
       if(in_array($file_ext, $allowed_ext)){
 
-        if($file_size <= 100000){
+        if($file_size <= 1000000){
           
           move_uploaded_file($file_tmp, $terget_dir);
 
