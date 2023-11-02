@@ -1,13 +1,17 @@
 <?php
 
 if(isset($_POST['submit'])){
-  if(!empty($_FILES['upload']['name'])){
-    var_dump($_FILES);
-  }else{
-      $message = '<p style="color: red;">Please Choose a file</p>';
-  }
-}
+  $file_name = $_FILES['uplaod']['name'];
+  $file_tmp = $_FILES['upload']['tmp_name'];
+  $file_size = $_FILES['upload']['size'];
+  $file_direction = "uploads" . $file_name;
 
+  move_uploaded_file($file_tmp, $file_direction);
+  echo '<p style = "color: green">Upload SucessFully</p>';
+
+}else{
+  $massege = '<p style = "color:red;">File is Not Upload</p>';
+}
 ?>
 
 <!DOCTYPE html>
@@ -18,11 +22,11 @@ if(isset($_POST['submit'])){
   <title>Document</title>
 </head>
 <body>
-  <?php echo $message ?? null; ?>
-  <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
-    Select Image to Upload:
+  <?php echo $massege ?? null; ?>
+  <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype="multipart/form-data">
+    Upload Image File: <br>
     <input type="file" name="upload">
-    <input type="submit" value="submit" name="submit">
+    <input type="submit" name="submit">
   </form>
 </body>
 </html>
