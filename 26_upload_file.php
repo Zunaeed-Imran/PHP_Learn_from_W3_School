@@ -1,18 +1,23 @@
 <?php
-
-if(isset($_POST['submit'])){
-  $file_name = $_FILES['uplaod']['name'];
-  $file_tmp = $_FILES['upload']['tmp_name'];
+if(isset($_POST['submit'])){                    // remember to use isset
+  $file_name = $_FILES['upload']['name'];     // remember to use $_FILES
   $file_size = $_FILES['upload']['size'];
-  $file_direction = "uploads" . $file_name;
+  $file_tmp = $_FILES['upload']['tmp_name'];
+  $file_direction = "uploads/" . $file_name;
 
-  move_uploaded_file($file_tmp, $file_direction);
-  echo '<p style = "color: green">Upload SucessFully</p>';
 
+  if(move_uploaded_file($file_tmp, $file_direction)){
+    $massege = 'File is Uploaded';
+  }else{
+    $massege = "file i not Uploaded";
+  }
+  
 }else{
-  $massege = '<p style = "color:red;">File is Not Upload</p>';
+  $massege = "";
 }
+
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,11 +27,10 @@ if(isset($_POST['submit'])){
   <title>Document</title>
 </head>
 <body>
-  <?php echo $massege ?? null; ?>
-  <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype="multipart/form-data">
-    Upload Image File: <br>
-    <input type="file" name="upload">
-    <input type="submit" name="submit">
-  </form>
+  <?php echo $massege; ?>
+  <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">                                                     // remember to use enctype
+    <input type="file" name="upload"><br>
+    <input type="submit" name="submit" value="upload">
+  </form> 
 </body>
 </html>
