@@ -1,5 +1,18 @@
 <?php
+include '31_connect_crud.php';
 
+
+if(isset($_POST['submit'])){
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $mobile = $_POST['mobile'];
+  $password = $_POST['password'];
+
+  $sql = "insert into `practice1` (name,email,mobile,password) 
+  values ($name, $email, $mobile, $password)";
+
+  $result = mysqli_query($connect, $sql);
+}
 
 ?>
 
