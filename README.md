@@ -1,5 +1,5 @@
 # PHP_Learn_from_W3_School
-###learn and practice from w3 school's.
+### learn and practice from w3 school's.
 #### What is PHP?
 - PHP is an acronym for "PHP: Hypertext Preprocessor"
 - PHP scripts are executed on the server
@@ -206,6 +206,10 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
 - [Simple Tutorial](https://youtu.be/kjE8FmFdhkE?si=Vb-SFEj3n02n2C-l)
 - Simple Example of __destructor. 
 
-## PHP MySQL Database
+## PHP CRUD Operation Practice.
+
+31. CRUD operation Practice
+- Simple Crud Operation practice in PHP and My_Sql database.
+
 
 
