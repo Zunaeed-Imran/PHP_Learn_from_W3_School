@@ -1,6 +1,6 @@
 <?php
 
-$connect = new mysqli('localhost', 'root', '', 'practice1');
+$connect = new mysqli('localhost', 'root', '', 'itlogiko');
 
 if($connect){
   echo "Connect sucessful";
