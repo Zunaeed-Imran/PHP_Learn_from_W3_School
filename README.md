@@ -214,7 +214,7 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
  ` $sql = "INSERT INTO `blog1` (name,email,mobile,password) 
 values ('$name', '$email', '$mobile', '$password')";
 `
-
+- [The tutorial of the example ](https://youtu.be/72U5Af8KUpA?si=YCaevGdyA20yZ85x)
 
 
 

@@ -10,13 +10,17 @@ include '31_connect_crud.php';
   <title>Crud Operation Display Page</title>
 </head>
 <body>
+  <div>
+    <button><a href="31.2_crud.php">Add User</a></button>
+  </div>
   <thead>
     <tr>
       <th>ID</th>
-      <th>NAME</th>
-      <th>EMAIL</th>
-      <th>MOBILE</th>
-      <th>PASSWORD</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Mobile</th>
+      <th>Password</th>
+      <th>Operation</th>
     </tr>
   </thead>
 </body>
@@ -24,6 +28,8 @@ include '31_connect_crud.php';
 
 <?php
 
+$sql = "select * from `blog1`";
+$result = mysqli_query($connect, $sql);
 
 
 ?>
