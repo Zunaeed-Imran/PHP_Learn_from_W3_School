@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
   $mobile = $_POST['mobile'];
   $password = $_POST['password'];
 
-  $sql = "insert into `blog1` (name,email,mobile,password) 
+  $sql = "INSERT INTO `blog1` (name,email,mobile,password) 
   values ($name, $email, $mobile, $password)";
 
   $result = mysqli_query($connect, $sql);
