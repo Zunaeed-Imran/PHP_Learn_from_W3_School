@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Crud Operation User input page</title>
 </head>
 <body>
    <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
