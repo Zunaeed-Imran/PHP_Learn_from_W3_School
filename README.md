@@ -210,6 +210,11 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
 
 31. CRUD operation Practice
 - Simple Crud Operation practice in PHP && My_Sql database.
+- i should use '' for variable like $name, $email like 
+ ` $sql = "INSERT INTO `blog1` (name,email,mobile,password) 
+values ('$name', '$email', '$mobile', '$password')";
+`
+
 
 
 

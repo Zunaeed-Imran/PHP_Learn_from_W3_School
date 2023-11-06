@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
   $password = $_POST['password'];
 
   $sql = "INSERT INTO `blog1` (name,email,mobile,password) 
-  values ($name, $email, $mobile, $password)";
+  values ('$name', '$email', '$mobile', '$password')";    // i have to remember '$name' not $name
 
   $result = mysqli_query($connect, $sql);
 }
