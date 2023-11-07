@@ -31,5 +31,24 @@ include '31_connect_crud.php';
 $sql = "select * from `blog1`";
 $result = mysqli_query($connect, $sql);
 
+if($result){
+  while($row = mysqli_fetch_assoc($result)){
+      $id = $row['id'];
+      $name = $row['name'];
+      $email = $row['email'];
+      $mobile = $row['mobile'];
+      $password = $row['password'];
+
+     echo '<tr>
+      <td">'.$id.'</td>
+      <td>'.$name.'</td>
+      <td>'.$email.'</td>
+      <td>'.$mobile.'</td>
+      <td>'.$password.'</td>
+      </tr>';
+      
+  }
+}
+
 
 ?>
