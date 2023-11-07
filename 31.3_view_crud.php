@@ -13,16 +13,18 @@ include '31_connect_crud.php';
   <div>
     <button><a href="31.2_crud.php">Add User</a></button>
   </div>
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Email</th>
-      <th>Mobile</th>
-      <th>Password</th>
-      <th>Operation</th>
-    </tr>
-  </thead>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>Password</th>
+        <th>Operation</th>
+      </tr>
+    </thead>
+  </table>
 </body>
 </html>
 
@@ -39,13 +41,15 @@ if($result){
       $mobile = $row['mobile'];
       $password = $row['password'];
 
-     echo '<tr>
+     echo '<table>
+     <tr>
       <td">'.$id.'</td>
       <td>'.$name.'</td>
       <td>'.$email.'</td>
       <td>'.$mobile.'</td>
       <td>'.$password.'</td>
-      </tr>';      
+     </tr>
+    </table>';      
   }
 }
 
