@@ -47,7 +47,11 @@ if($result){
       <td>'.$name.'</td>
       <td>'.$email.'</td>
       <td>'.$mobile.'</td>
-      <td>'.$password.'</td>
+      <td>'.$password. '</td>
+      <td>
+        <button><a href="">Detete</a></button>
+        <button><a href="">Update</a></button>
+      </td>
      </tr>
     </table>';      
   }
