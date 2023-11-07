@@ -45,8 +45,7 @@ if($result){
       <td>'.$email.'</td>
       <td>'.$mobile.'</td>
       <td>'.$password.'</td>
-      </tr>';
-      
+      </tr>';      
   }
 }
 

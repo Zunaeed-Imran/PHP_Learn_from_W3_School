@@ -12,6 +12,13 @@ if(isset($_POST['submit'])){
   values ('$name', '$email', '$mobile', '$password')";    // i have to remember '$name' not $name
 
   $result = mysqli_query($connect, $sql);
+
+  if($result){
+    header('location:31.3_view_crud.php');
+  }else{
+    mysqli_error($connect);
+  }
+
 }
 
 ?>
