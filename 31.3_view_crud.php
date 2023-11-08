@@ -49,7 +49,7 @@ if($result){
       <td>'.$mobile.'</td>
       <td>'.$password. '</td>
       <td>
-        <button><a href="">Detete</a></button>
+        <button><a href="31.4_delete.php?deleteid'.$id.'">Detete</a></button>
         <button><a href="">Update</a></button>
       </td>
      </tr>
