@@ -25,6 +25,7 @@ include '31_connect_crud.php';
       </tr>
     </thead>
   </table>
+  
 </body>
 </html>
 
@@ -42,6 +43,7 @@ if($result){
       $password = $row['password'];
 
      echo '<table>
+    <tbody>
      <tr>
       <td">'.$id.'</td>
       <td>'.$name.'</td>
@@ -53,6 +55,7 @@ if($result){
         <button><a href="">Update</a></button>
       </td>
      </tr>
+   </tbody>
     </table>';      
   }
 }
