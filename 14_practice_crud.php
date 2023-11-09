@@ -9,7 +9,7 @@ if (isset($_GET['submit'])) {
   $result = mysqli_query($connect, $sql);
 
   if ($result) {
-    header('location:14_practice_crud.php');
+    header('location:14_practice_display.php');
   } else {
     die(mysqli_error($connect));
   }
