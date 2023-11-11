@@ -8,6 +8,3 @@ $a = new koli();
 $a->x = "Virat";
 
 echo $a->x;
-
-
-?>

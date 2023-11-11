@@ -24,7 +24,3 @@ class car{
 
    $myCar = new car("Green", "GreenLine");
    echo $myCar-> massege();
-
-
-
-?>

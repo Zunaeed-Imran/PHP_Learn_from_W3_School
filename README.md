@@ -43,10 +43,25 @@
 - it also see the string digit's
 - it also print all array value.
 
-7. PHP Object
+7. PHP Object practice
 -  inherit ধরা যাক আমরা অনেকগুলো গাড়ির নাম নিলাম এবং প্রত্যেকটা গাড়ির কালার এবং চাকা সাইজ ব্রেক এর মডেল আলাদা
 - আমরা inherit করে Object Class এর মাধ্যমে সেগুলো Define করতে পারি|
 - আমরা এখানে পাবলিক ব্যবহার করেছি কারণ ফাংশানের বাইরেও যাতে আমরা কল করতে পারি বা defin করতে পারি|
 - উপরের উদাহরণ দেখে আমরা বুঝতে পারি একবার অবজেক্ট ডিফাইন করে একই জিনিস বারবার লেখা লাগবে না ফাংশনের মত কাজ করে কিন্তু inharit অর্থাৎ ভিতরের মানও চেঞ্জ করে
 
+8. PHP class (simple class object practice)
+- example of class object
+
+9. file upload
+- practicing file upload
+
+10. file upload
+- pracdtice file upload with upload size condation
+
+11. 12. 13. file upload / simplest practice
+- simple file upload only input one image
+
+14. Practice crud Operation
+- practice CRUD Operation with basic and simple way
+- practice only with ID and Name
 
