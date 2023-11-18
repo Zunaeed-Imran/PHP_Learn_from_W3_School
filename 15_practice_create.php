@@ -9,6 +9,13 @@ include '15_practice_connect.php';
     $image_path = "uploads/.${image_name}";
 
     $image_move = move_uploaded_file($image_tmp, $image_path);
+
+    $insert_date = "INSERT into `practice3` (name, image) values ('$name', '$image_move')";
+    $result = mysqli_query($connect, $insert_date);
+
+    if($result){
+      header('location:15_practice_crud_index.php');
+    }
   }
 
 
