@@ -18,6 +18,7 @@
         <th>Id</th>
         <th>Name</th>
         <th>Image</th>
+        <th>Action</th>
       </tr>
     </thead>
   </table>
@@ -43,6 +44,11 @@ if ($result) {
             <tb>' . $id . '</tb>
             <tb>' . $name . '</tb>
             <tb>' . $image . '</tb>
+            <tb>
+              <a href="15_practice_delete.php?id=<?= $row[id] ?>">
+                <button type="button">Delate</button>
+              </a>
+            </tb>
           </tr>
         </tbody> 
        </table>';

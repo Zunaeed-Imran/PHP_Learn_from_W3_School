@@ -1,18 +1,8 @@
 <?php
 include '15_practice_connect.php';
 
-
-
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
-</html>
+if($connect->query("DELETE from `practice3` WHERE `id` = {$_POST['id']}")){
+  header('location:15_practice_crud_index.php');
+}else{
+  die(mysqli_error($connect));
+}
