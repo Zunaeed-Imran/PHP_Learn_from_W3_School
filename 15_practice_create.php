@@ -1,7 +1,15 @@
 <?php
 include '15_practice_connect.php';
 
+  if(isset($_POST['submit'])){
+    $name = $_POST['name'];
 
+    $image_name = $_FILES['image']['name'];
+    $image_tmp = $_FILES['image']['tmp_name'];
+    $image_path = "uploads/.${image_name}";
+
+    $image_move = move_uploaded_file($image_tmp, $image_path);
+  }
 
 
 ?>
