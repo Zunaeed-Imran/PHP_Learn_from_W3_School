@@ -65,3 +65,6 @@
 - practice CRUD Operation with basic and simple way
 - practice only with ID and Name
 
+14. Practice crud 
+- we practice crud operation with upload image
+- but delete page didn't work
